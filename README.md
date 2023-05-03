@@ -35,11 +35,24 @@ Table of Contents
 
 - Developer tooling ecosystem
     - [Puppet Rspec - issues](https://github.com/puppetlabs/rspec-puppet/issues)
+    - [Puppet Litmus](https://github.com/puppetlabs/puppet_litmus)
+        - List of issues https://github.com/puppetlabs/puppet_litmus/issues
+    - [Provision](https://github.com/puppetlabs/provision)
+        - When provisioning to GCP fails, make `provision::provision_service provisioner` retry on 500 error responses, there should be a MAX RETRY set though (3). So, the CI doesn’t fail due to provisioning failures.
+        - Previous attempts: https://github.com/puppetlabs/provision/pull/194
+    - [PE Status Check](https://github.com/puppetlabs/puppetlabs-pe_status_check)
+        - lookup indicator_exclusions from hiera pe_status check
+        - Related issue on Github: https://github.com/puppetlabs/puppetlabs-pe_status_check/issues/127
+    - Rubocop offenses
+        - Help us to fix Rubocop offenses from our tooling and modules.
+        - This is a good way to get to know a new project, by making small changes to reduce the number of Rubocop offenses in a project.
+        - This is just one example about a [rubocop TO DO file from the PDK project](https://github.com/puppetlabs/pdk/blob/main/.rubocop_todo.yml)
+        - Here is the general search on all our public Github repos that use a `.rubocop_todo.yml` file: https://github.com/search?q=org%3Apuppetlabs+path%3A.rubocop_todo.yml&type=code
+- General help needed
+    - [Puppet's repositories labeled as `hacktoberfest`](https://github.com/search?q=topic%3Ahacktoberfest+org%3Apuppetlabs+fork%3Atrue&type=repositories)
     - 
-- Modules
-    - TBD
-
 - Greenfield solutions
-    - TBD
+    - Build a module’s legacy facts scanner, it should receive an optional parameter (replace=true) to replace automatically the legacy facts for current facts
 - Bring your own challenge
     - Maybe you have a bug that has been bothering you for some time now, or you want to improve a feature that your work depends on. Work on something that motivates you 😊
+    - You are not familiar with Puppet's Dev tooling ecosystem but you still want to contribute in a module? Please feel free to do that 🙌
