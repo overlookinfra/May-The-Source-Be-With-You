@@ -21,6 +21,8 @@ Table of Contents
 
 ### Before starting
 
+- [Sign up for the hackathon](https://docs.google.com/forms/d/e/1FAIpQLSc0jDa0SIFJjmBh9q2SoH55hIixFXbCWyedvGib5eUiRXyZbg/viewform) In case you haven't done that before
+    - 🦤 A little birdie says that you might even get a bit of exclusive swag for participating, too! 
 - Make sure you are logged in the [Puppet Community Slack](https://slack.puppet.com/)
 - Join the `#tbd` channel
     - Most of the communication will be asynchronous, make sure you are in that channel so you don't miss anything!
@@ -40,6 +42,8 @@ Table of Contents
     - [Puppet Litmus](https://github.com/puppetlabs/puppet_litmus)
         - Litmus is a command line tool that allows you to run acceptance tests against Puppet modules
         - Open issues https://github.com/puppetlabs/puppet_litmus/issues
+    - [Puppet VS Code extension](https://github.com/puppetlabs/puppet-vscode)
+        - Open issues https://github.com/puppetlabs/puppet-vscode/issues
     - [Provision](https://github.com/puppetlabs/provision)
         - When provisioning to GCP fails, make `provision::provision_service provisioner` retry on 500 error responses, there should be a MAX RETRY set though (3). So, the CI doesn’t fail due to provisioning failures.
         - Previous attempts: https://github.com/puppetlabs/provision/pull/194
@@ -51,6 +55,8 @@ Table of Contents
         - This is a good way to get to know a new project, by making small changes to reduce the number of Rubocop offenses in a project.
         - This is just one example about a [rubocop TO DO file from the PDK project](https://github.com/puppetlabs/pdk/blob/main/.rubocop_todo.yml)
         - Here is the general search on all our public Github repos that use a `.rubocop_todo.yml` file: https://github.com/search?q=org%3Apuppetlabs+path%3A.rubocop_todo.yml&type=code
+    - [Forge Ruby Gem](https://github.com/puppetlabs/forge-ruby)
+        - Issue: This library (gem) currently does no response caching of its own, instead opting to re-issue every request each time.
 - General help needed
     - [Puppet's repositories labeled as `hacktoberfest`](https://github.com/search?q=topic%3Ahacktoberfest+org%3Apuppetlabs+fork%3Atrue&type=repositories)
 - Greenfield solutions
