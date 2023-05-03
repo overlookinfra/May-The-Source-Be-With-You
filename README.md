@@ -15,28 +15,31 @@ Do you have a pet peeve about the PDK, rspec-puppet, puppet-lint, the Puppet VSC
 Table of Contents
 -----------------
 
-- Before starting
-- Tools and resources
-- List of challenges
+- [Before starting](#before-starting)
+- [Tools and resources](#tools-and-resources)
+- [List of challenges](#list-of-challenges)
 
 ### Before starting
 
 - Make sure you are logged in the [Puppet Community Slack](https://slack.puppet.com/)
 - Join the `#tbd` channel
+    - Most of the communication will be asynchronous, make sure you are in that channel so you don't miss anything!
 - Have some coffee ☕ and cookies 🍪 handy 
 
 ### Tools and resources
 
 - [Zoom](https://support.zoom.us/hc/en-us/articles/4415294177549-Downloading-the-Zoom-desktop-client-and-mobile-app). The hackathon kick-off and closing will happen via Zoom, make sure to check the `#tbd` channel for more up to date information.
-
 - [Slack](https://slack.com/download)
 
 ### List of challenges
 
 - Developer tooling ecosystem
-    - [Puppet Rspec - issues](https://github.com/puppetlabs/rspec-puppet/issues)
+    - [Puppet Rspec](https://github.com/puppetlabs/rspec-puppet)
+        - RSpec tests for your Puppet manifests & modules
+        - Open issues: https://github.com/puppetlabs/rspec-puppet/issues
     - [Puppet Litmus](https://github.com/puppetlabs/puppet_litmus)
-        - List of issues https://github.com/puppetlabs/puppet_litmus/issues
+        - Litmus is a command line tool that allows you to run acceptance tests against Puppet modules
+        - Open issues https://github.com/puppetlabs/puppet_litmus/issues
     - [Provision](https://github.com/puppetlabs/provision)
         - When provisioning to GCP fails, make `provision::provision_service provisioner` retry on 500 error responses, there should be a MAX RETRY set though (3). So, the CI doesn’t fail due to provisioning failures.
         - Previous attempts: https://github.com/puppetlabs/provision/pull/194
@@ -50,7 +53,6 @@ Table of Contents
         - Here is the general search on all our public Github repos that use a `.rubocop_todo.yml` file: https://github.com/search?q=org%3Apuppetlabs+path%3A.rubocop_todo.yml&type=code
 - General help needed
     - [Puppet's repositories labeled as `hacktoberfest`](https://github.com/search?q=topic%3Ahacktoberfest+org%3Apuppetlabs+fork%3Atrue&type=repositories)
-    - 
 - Greenfield solutions
     - Build a module’s legacy facts scanner, it should receive an optional parameter (replace=true) to replace automatically the legacy facts for current facts
 - Bring your own challenge
