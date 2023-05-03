@@ -48,6 +48,8 @@ Table of Contents
     - [Provision](https://github.com/puppetlabs/provision)
         - When provisioning to GCP fails, make `provision::provision_service provisioner` retry on 500 error responses, there should be a MAX RETRY set though (3). So, the CI doesn’t fail due to provisioning failures.
         - Previous attempts: https://github.com/puppetlabs/provision/pull/194
+    - [Puppet Code Validator](https://validate.puppet.com/)
+        - Open issues: https://github.com/puppetlabs/puppet-validator/issues
     - [PE Status Check](https://github.com/puppetlabs/puppetlabs-pe_status_check)
         - lookup indicator_exclusions from hiera pe_status check
         - Related issue on Github: https://github.com/puppetlabs/puppetlabs-pe_status_check/issues/127
@@ -56,7 +58,7 @@ Table of Contents
         - This is a good way to get to know a new project, by making small changes to reduce the number of Rubocop offenses in a project.
         - This is just one example about a [rubocop TO DO file from the PDK project](https://github.com/puppetlabs/pdk/blob/main/.rubocop_todo.yml)
         - The best approach to fix these would be to:
-            - find repos with a rubocop_todo.yml
+            - find repos with a `.rubocop_todo.yml`
             - Look at the rules that have been excluded
             - Comment one out
             - Run bundle exec rubocop
