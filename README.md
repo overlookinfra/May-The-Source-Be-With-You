@@ -15,10 +15,23 @@ Do you have a pet peeve about the PDK, rspec-puppet, puppet-lint, the Puppet VSC
 Table of Contents
 -----------------
 
+- [Agenda](#agenda)
 - [Before starting](#before-starting)
 - [Tools and resources](#tools-and-resources)
 - [List of challenges](#list-of-challenges)
 - [Submitting your contribution](#submitting-your-contribution)
+
+### Agenda
+
+The following timelines are subject to the CEST and PDT time zones:
+
+- 10 AM - Welcome and introduction to the hackathon – Zoom session
+    - Sharing links and this repository
+    - Explaining the dynamics
+- 12 PM - Office hours on Slack (`#hackathon` channel) – 45 min
+    - This is a good opportunity to connect with some of our Puppet engineers, whether you have questions regarding one of the challenges or if you are stuck in setting up a project, let us know how we can help you here :)
+-  6 PM - Closing - Zoom session
+    - Participants recognition and final words
 
 ### Before starting
 
