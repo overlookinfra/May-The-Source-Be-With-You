@@ -50,6 +50,8 @@ The following timelines are subject to the CEST and PDT time zones:
 ### List of challenges
 
 - Developer tooling ecosystem
+    - [Puppet PDK](https://github.com/puppetlabs/pdk)
+        - Open issues: https://github.com/puppetlabs/pdk/issues
     - [Puppet Rspec](https://github.com/puppetlabs/rspec-puppet)
         - RSpec tests for your Puppet manifests & modules
         - Open issues: https://github.com/puppetlabs/rspec-puppet/issues
