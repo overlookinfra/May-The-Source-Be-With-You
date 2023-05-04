@@ -63,6 +63,8 @@ The following timelines are subject to the CEST and PDT time zones:
         - Previous attempts: https://github.com/puppetlabs/provision/pull/194
     - [Puppet Code Validator](https://validate.puppet.com/)
         - Open issues: https://github.com/puppetlabs/puppet-validator/issues
+    - [Puppet Spec Helper](https://github.com/puppetlabs/puppetlabs_spec_helper)
+        - Open issues: https://github.com/puppetlabs/puppetlabs_spec_helper/issues
     - [PE Status Check](https://github.com/puppetlabs/puppetlabs-pe_status_check)
         - lookup indicator_exclusions from hiera pe_status check
         - Related issue on Github: https://github.com/puppetlabs/puppetlabs-pe_status_check/issues/127
