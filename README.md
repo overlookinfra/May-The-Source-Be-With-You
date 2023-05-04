@@ -80,7 +80,7 @@ The following timelines are subject to the CEST and PDT time zones:
             - Comment one out
             - Run bundle exec rubocop
             - Commit your changes :)
-        - Here is the general search on all our public Github repos that use a `.rubocop_todo.yml` file: https://github.com/search?q=org%3Apuppetlabs+path%3A.rubocop_todo.yml&type=code
+        - Here is the general search on all our public Github repos that use a `.rubocop_todo.yml` file that has active filters: https://github.com/search?q=org%3Apuppetlabs+path%3A.rubocop_todo.yml+%2F%5E.*%5C%2F.*%3A%24%2F&type=code
     - [Forge Ruby Gem](https://github.com/puppetlabs/forge-ruby)
         - Issue: This library (gem) currently does no response caching of its own, instead opting to re-issue every request each time.
 - General help needed
